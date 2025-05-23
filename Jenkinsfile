@@ -4,9 +4,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                 dir
-
                
-
                 curl https://www.python.org/ftp/python/3.14.0/python-3.14.0a1-amd64.exe --output python.exe
 
                 dir
