@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                python --version 
+                ./manage.py jenkins --enable-coverage
             }
         }
     }
